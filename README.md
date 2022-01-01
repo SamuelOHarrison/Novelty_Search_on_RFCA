@@ -1,6 +1,6 @@
 # Novelty_Search_on_RFCA
 This is a domain specific implementation of a novelty search on a Random Function Cellular Automata.
-it takes the parameters of cycle length and number of frozen nodes in a cycle and plots them on a XY axis. It then searches the
+It takes the parameters of cycle length and number of frozen nodes in a cycle and plots them on a XY axis. It then searches the
 state space by comparing two nodes on their novelty (implemented as a node's average distance from its n nearest neghbours).
 The loosing node is mutated using the winner to encourage evolution towards more novel nodes. If a winning node is novel enough when
 being compared it is added to an archive, this allows us to see a path through the state space as the search progresses.
